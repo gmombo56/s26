@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+	color:blue;
+	background-color:chartreuse;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding: 10px;
+}
+
+h2{
+	color: silver;
+	background-color: gold;
+	margin: 30px;
+	font-size: 30;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+h3{
+	color:tomato;
+	background-color: maroon;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: 60px;
+}
+
+p{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: olive;
+	background-color: magenta;
+	padding: 50px;
+	font-size: 60;
+}
+
+body{
+	background-color:yellowgreen;
+}
+
+img {
+  border-radius: 50%;
+}
