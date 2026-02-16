@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+header{
+	background-color: #FA9BCF;
+	padding: 30px;
+	margin: none;
+}
+
+h1{
+	color: #FA9BCF;
+}
+
+
+h2{
+	color: #DA8EBA;
+}
+body{
+	background: #F4DBE9;
+	font-size: 20;
+	line-height: 1.5em;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.wrapper {
+	wdith: 1000px;
+	padding: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	background: #ffffff;
+}
+
+a{
+	color: #FA9BCF;
+}
+a:hover{
+	color:#FFCAE9;
+}
+
+nav.sitenav a{
+	color: #858ACD;
+	bacground-color: #B4A2FF;
+	font-weight: bold;
+	font-size: 150%;
+	align-content: flex-start;
+}
+
+nav.sitenav a:hover{
+	color: #FFCAE9;
+}
+
+nav.pagenav a{
+	text-decoration: none;
+}
+
+table, th, td {
+  border: 3px solid;
+	color: #858ACD;
+	padding: 10px;
+}
+table {
+  border-collapse: collapse;
+}
+
+
