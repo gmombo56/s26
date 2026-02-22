@@ -49,10 +49,9 @@ a:hover{
 
 nav.sitenav a{
 	display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+	flex-direction:column;
     column-gap: 32px; 
+	justify-content: space-around;
 	color: #858ACD;
 	bacground-color: #B4A2FF;
 	font-weight: bold;
