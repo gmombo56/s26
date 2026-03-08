@@ -6,6 +6,7 @@ header{
 	background-color: #FA9BCF;
 	padding: 15px;
 	margin: none;
+	justify-content: center;
 }
 
 h1{
@@ -48,14 +49,11 @@ a:hover{
 }
 
 nav.sitenav a{
-	display: flex;
-	flex-direction:row;
-    column-gap: 32px; 
-	justify-content: space-around;
+	justify-content: space-between;
 	color: #858ACD;
 	bacground-color: #B4A2FF;
 	font-weight: bold;
-	font-size: 150%;
+	font-size: 200%;
 }
 
 nav.sitenav a:hover{
@@ -78,15 +76,15 @@ table {
 
 .gallery-grid {
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-row-gap: 5px ;
+			grid-template-columns: auto auto auto;
+            grid-row-gap: 20px ;
             justify-items: center;
-            align-items: start;
+            align-items:start;
             justify-content: space-between;
         }
           
 .gallery-item {
-            width: 200px; /*should match the width of your images + width of border (if any) */
+            width: 300px; /*should match the width of your images + width of border (if any) */
             text-align: center;
         } 
 
