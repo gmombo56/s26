@@ -2,7 +2,7 @@
 /* CSS Document */
 
 h2{
-	color: #DA8EBA;
+	color: #4B4A67;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 .gallery-grid {
@@ -27,7 +27,7 @@ h2{
 }
 
 .wrapper {
-	background: #ffffff;
+	background: #DDD1C7;
     width: 972px; 
 	margin-top: 20px;
     margin-left: auto;
@@ -36,7 +36,7 @@ h2{
 }
 
 header{
-	background-color: #FA9BCF;
+	background-color: #C2CFB2;
 	padding: 15px;
 	margin: none;
 	justify-content: center;
@@ -44,15 +44,15 @@ header{
 
 nav.sitenav a{
 	justify-content: space-between;
-	color: #858ACD;
-	bacground-color: #B4A2FF;
+	color: #4B4A67;
+	bacground-color: #C2CFB2;
 	font-weight: bold;
 	font-size: 200%;
 }
 
 nav.sitenav a:hover{
-	color: #FA9BCF;
-	background-color: #858ACD;
+	color: #C2CFB2;
+	background-color: #4B4A67;
 }
 gallery-grid {
             display: grid;
@@ -64,7 +64,7 @@ gallery-grid {
         }
           
 .gallery-item {
-            width: 300px; /*should match the width of your images + width of border (if any) */
+            width: 310px; /*should match the width of your images + width of border (if any) */
             text-align: center;
         } 
 
