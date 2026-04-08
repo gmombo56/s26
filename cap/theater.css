@@ -54,21 +54,13 @@ nav.sitenav a:hover{
 	color: #C2CFB2;
 	background-color: #4B4A67;
 }
-gallery-grid {
+.gallery-grid {
             display: grid;
 			grid-template-columns: auto auto auto;
-            grid-row-gap: 20px ;
-            justify-items: center;
-            align-items:start;
-            justify-content: space-between;
         }
           
 .gallery-item {
-            width: 310px; /*should match the width of your images + width of border (if any) */
+            width: 300px; /*should match the width of your images + width of border (if any) */
             text-align: center;
         } 
 
-.gallery-item p {
-            margin: .25em 0;
-            line-height: 135%;
-        }
