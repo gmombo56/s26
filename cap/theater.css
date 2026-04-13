@@ -37,17 +37,17 @@ h2{
 
 header{
 	background-color: #C2CFB2;
-	padding: 15px;
-	margin: none;
 	justify-content: center;
 }
 
 nav.sitenav a{
-	justify-content: space-between;
+	text-decoration: none;
 	color: #4B4A67;
 	bacground-color: #C2CFB2;
 	font-weight: bold;
 	font-size: 200%;
+	padding: 15px 15px;
+	margin: 10px;
 }
 
 nav.sitenav a:hover{
