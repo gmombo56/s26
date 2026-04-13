@@ -65,4 +65,11 @@ nav.sitenav a:hover{
             width: 300px; /*should match the width of your images + width of border (if any) */
             text-align: center;
         } 
-
+table, th, td {
+  border: 3px solid;
+	color: #4B4A67;
+	padding: 10px;
+}
+table {
+  border-collapse: collapse;
+}
