@@ -1,9 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
+h1{
+	color: #4B4A67;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 40px;
+}
 h2{
 	color: #4B4A67;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px;
+}
+h3{
+	color: #4B4A67;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
 }
 .gallery-grid {
             display: grid;
@@ -16,7 +27,7 @@ h2{
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: 1fr .5fr;
+  grid-template-columns: .6fr .3fr;
   
 }
 body{
@@ -40,6 +51,7 @@ body{
 header{
 	background-color: #C2CFB2;
 	justify-content: center;
+	padding:10px;
 }
 
 nav.sitenav a{
@@ -48,14 +60,15 @@ nav.sitenav a{
 	bacground-color: #C2CFB2;
 	font-weight: bold;
 	font-size: 200%;
-	padding: 15px 15px;
-	margin: 10px;
+	padding:10px;
 }
 
-nav.sitenav a:hover{
+/*nav.sitenav a:hover{
 	color: #C2CFB2;
 	background-color: #4B4A67;
-}
+
+}*/
+
 .gallery-grid {
             display: grid;
 			grid-template-columns: auto auto auto;
@@ -65,11 +78,60 @@ nav.sitenav a:hover{
             width: 300px; /*should match the width of your images + width of border (if any) */
             text-align: center;
         } 
+
 table, th, td {
-  border: 3px solid;
+  border: none;
 	color: #4B4A67;
-	padding: 10px;
+	padding-left: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 30px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 2;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	border-bottom: 1px solid #4B4A67;
 }
+
+tr:hover {background-color: #ddd;}
+
 table {
   border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
 }
+p{
+	font-size: 16px;
+	line-height: 2;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+ul{
+		font-size: 16px;
+	line-height: 2;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.worldmap {
+	width: 900px;
+	height: 600px;
+	border: solid #5a5a5a 1px;
+	background: url(images/worldmap.svg) no-repeat;
+	background-size: 900px 600px;
+	padding: 0;
+	margin: 0; /* adjust as needed */
+	position: relative; /* needed for positioning the icons */
+}
+.worldmap-item {
+	height: 24px;
+	position: absolute;
+	}
+#worldmap-item-newyork {
+	top: 535px;
+	left: 374px;
+	}
+	
+#worldmap-item-london {
+	top: 200px;
+	left: 440px;
+	}
