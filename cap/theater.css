@@ -123,15 +123,50 @@ ul{
 	position: relative; /* needed for positioning the icons */
 }
 .worldmap-item {
-	height: 24px;
+	height: 30px;
 	position: absolute;
 	}
-#worldmap-item-newyork {
-	top: 535px;
-	left: 374px;
+ .worldmap-item span {
+    display: none;  
+}
+
+.worldmap-item:hover span {
+    display: inline; 
+}
+
+#worldmap-item-NY {
+	top: 160px;
+	right: 120px;
+	color: black;
 	}
 	
-#worldmap-item-london {
-	top: 200px;
-	left: 440px;
+#worldmap-item-LA {
+	top:280px;
+	left: 70px;
+	color: black;
+	}
+#worldmap-item-SanFran {
+	top:240px;
+	left: 50px;
+	color: black;
+	}
+#worldmap-item-ch {
+	top:190px;
+	left: 560px;
+	color: black;
+	}
+#worldmap-item-mn {
+	top:140px;
+	left: 480px;
+	color: black;
+	}
+#worldmap-item-atl {
+	top:350px;
+	left: 585px;
+	color: black;
+	}
+#worldmap-item-wa {
+	top:230px;
+	left: 730px;
+	color: black;
 	}
