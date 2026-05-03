@@ -183,3 +183,28 @@ ul{
 	left: 730px;
 	color: black;
 	}
+#theater{
+	text-align: center;
+}
+
+
+
+.showcase-grid {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-row-gap: 20px ;
+justify-items: center;
+align-items: start;
+justify-content:space-between;
+}
+.showcase-item {
+width: 300px; 
+text-align: center;
+	
+	background-color: #C2CFB2;
+}
+.showcase-item p {
+margin: .25em 0;
+line-height: 135%;
+font-size: 90%;
+}
